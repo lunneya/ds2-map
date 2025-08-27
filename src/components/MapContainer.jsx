@@ -16,14 +16,16 @@ function MapContainer() {
     }, []);
 
     return (
-        <Stage width={1920} height={1280}>
-            <Layer>
-                {mapImg && <KonvaImage image={mapImg} width={1000} height={700}/>}
-                {locations.map((loc) => (
-                    <LocationMarker key={loc.id} loc={loc} />
-                ))}
-            </Layer>
-        </Stage>
+        <div className='map-wrapper'>
+            <Stage width={1920} height={1280}>
+                <Layer>
+                    {mapImg && <KonvaImage image={mapImg} width={1000} height={700}/>}
+                    {locations.map((loc) => (
+                        <LocationMarker key={loc.id} loc={loc} />
+                    ))}
+                </Layer>
+            </Stage>
+        </div>
     );
 }
 

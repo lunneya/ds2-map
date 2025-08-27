@@ -1,4 +1,5 @@
 import MapContainer from "../components/MapContainer.jsx";
+import Sidebar from "../components/sidebar/Sidebar.jsx";
 
 function Home() {
     return (
