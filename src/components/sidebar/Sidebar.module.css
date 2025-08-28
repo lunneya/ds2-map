@@ -1,13 +1,22 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 22px;
     background-color: #1e1e1e;
     color: #e0e0e0;
     width: 20%;
     height: 100vh;
     box-shadow: 2px 0 6px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease-in-out;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.locationsList {
+    display: flex;
+    margin: 4px 0 4px 0;
 }
 
 .left {
