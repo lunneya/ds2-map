@@ -6,14 +6,14 @@ export const locations = [
     {
         id: 1,
         name: 'Majula',
-        // x: 500,
-        // y: 300,
+        x: 500,
+        y: 300,
     },
     {
         id: 2,
         name: 'Forest of Fallen Giants',
-        // x: 700,
-        // y: 250,
+        x: 700,
+        y: 250,
     },
     {
         id: 3,

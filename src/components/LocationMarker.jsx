@@ -6,20 +6,20 @@ function LocationMarker({ loc }) {
 
     return (
         <>
-            {/*<Circle*/}
-            {/*    x={loc.x}*/}
-            {/*    y={loc.y}*/}
-            {/*    radius={10}*/}
-            {/*    fill='red'*/}
-            {/*    onClick={() => navigate(`/location/${loc.id}`)}*/}
-            {/*/>*/}
-            {/*<Text*/}
-            {/*    x={loc.x + 15}*/}
-            {/*    y={loc.y - 10}*/}
-            {/*    text={loc.name}*/}
-            {/*    fontSize={14}*/}
-            {/*    fill='white'*/}
-            {/*/>*/}
+            <Circle
+                x={loc.x}
+                y={loc.y}
+                radius={10}
+                fill='red'
+                onClick={() => navigate(`/location/${loc.id}`)}
+            />
+            <Text
+                x={loc.x + 15}
+                y={loc.y - 10}
+                text={loc.name}
+                fontSize={14}
+                fill='white'
+            />
         </>
     );
 }

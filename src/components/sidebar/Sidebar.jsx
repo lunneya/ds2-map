@@ -1,7 +1,9 @@
 import styles from './Sidebar.module.css';
 import { locations } from '../../data/locations.js';
 
+
 function Sidebar() {
+
     return (
         <aside className={styles.sidebar}>
             <h2 className={styles.title}>Locations</h2>
